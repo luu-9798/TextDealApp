@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34A5B08F286A5A5D003FC554 /* TextDealAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A5B08E286A5A5D003FC554 /* TextDealAppApp.swift */; };
+		34A5B091286A5A5D003FC554 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A5B090286A5A5D003FC554 /* ContentView.swift */; };
+		34A5B093286A5A5E003FC554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A5B092286A5A5E003FC554 /* Assets.xcassets */; };
+		34A5B096286A5A5E003FC554 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A5B095286A5A5E003FC554 /* Preview Assets.xcassets */; };
+		34A5B0A0286A5A5E003FC554 /* TextDealAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A5B09F286A5A5E003FC554 /* TextDealAppTests.swift */; };
+		34A5B0AA286A5A5E003FC554 /* TextDealAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A5B0A9286A5A5E003FC554 /* TextDealAppUITests.swift */; };
+		34A5B0AC286A5A5E003FC554 /* TextDealAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A5B0AB286A5A5E003FC554 /* TextDealAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34A5B09C286A5A5E003FC554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34A5B083286A5A5D003FC554 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34A5B08A286A5A5D003FC554;
+			remoteInfo = TextDealApp;
+		};
+		34A5B0A6286A5A5E003FC554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34A5B083286A5A5D003FC554 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34A5B08A286A5A5D003FC554;
+			remoteInfo = TextDealApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34A5B08B286A5A5D003FC554 /* TextDealApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextDealApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A5B08E286A5A5D003FC554 /* TextDealAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDealAppApp.swift; sourceTree = "<group>"; };
+		34A5B090286A5A5D003FC554 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		34A5B092286A5A5E003FC554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34A5B095286A5A5E003FC554 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34A5B09B286A5A5E003FC554 /* TextDealAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextDealAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A5B09F286A5A5E003FC554 /* TextDealAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDealAppTests.swift; sourceTree = "<group>"; };
+		34A5B0A5286A5A5E003FC554 /* TextDealAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextDealAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A5B0A9286A5A5E003FC554 /* TextDealAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDealAppUITests.swift; sourceTree = "<group>"; };
+		34A5B0AB286A5A5E003FC554 /* TextDealAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDealAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34A5B088286A5A5D003FC554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A5B098286A5A5E003FC554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A5B0A2286A5A5E003FC554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34A5B082286A5A5D003FC554 = {
+			isa = PBXGroup;
+			children = (
+				34A5B08D286A5A5D003FC554 /* TextDealApp */,
+				34A5B09E286A5A5E003FC554 /* TextDealAppTests */,
+				34A5B0A8286A5A5E003FC554 /* TextDealAppUITests */,
+				34A5B08C286A5A5D003FC554 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34A5B08C286A5A5D003FC554 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34A5B08B286A5A5D003FC554 /* TextDealApp.app */,
+				34A5B09B286A5A5E003FC554 /* TextDealAppTests.xctest */,
+				34A5B0A5286A5A5E003FC554 /* TextDealAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34A5B08D286A5A5D003FC554 /* TextDealApp */ = {
+			isa = PBXGroup;
+			children = (
+				34A5B08E286A5A5D003FC554 /* TextDealAppApp.swift */,
+				34A5B090286A5A5D003FC554 /* ContentView.swift */,
+				34A5B092286A5A5E003FC554 /* Assets.xcassets */,
+				34A5B094286A5A5E003FC554 /* Preview Content */,
+			);
+			path = TextDealApp;
+			sourceTree = "<group>";
+		};
+		34A5B094286A5A5E003FC554 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				34A5B095286A5A5E003FC554 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		34A5B09E286A5A5E003FC554 /* TextDealAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				34A5B09F286A5A5E003FC554 /* TextDealAppTests.swift */,
+			);
+			path = TextDealAppTests;
+			sourceTree = "<group>";
+		};
+		34A5B0A8286A5A5E003FC554 /* TextDealAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34A5B0A9286A5A5E003FC554 /* TextDealAppUITests.swift */,
+				34A5B0AB286A5A5E003FC554 /* TextDealAppUITestsLaunchTests.swift */,
+			);
+			path = TextDealAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34A5B08A286A5A5D003FC554 /* TextDealApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A5B0AF286A5A5E003FC554 /* Build configuration list for PBXNativeTarget "TextDealApp" */;
+			buildPhases = (
+				34A5B087286A5A5D003FC554 /* Sources */,
+				34A5B088286A5A5D003FC554 /* Frameworks */,
+				34A5B089286A5A5D003FC554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextDealApp;
+			productName = TextDealApp;
+			productReference = 34A5B08B286A5A5D003FC554 /* TextDealApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34A5B09A286A5A5E003FC554 /* TextDealAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A5B0B2286A5A5E003FC554 /* Build configuration list for PBXNativeTarget "TextDealAppTests" */;
+			buildPhases = (
+				34A5B097286A5A5E003FC554 /* Sources */,
+				34A5B098286A5A5E003FC554 /* Frameworks */,
+				34A5B099286A5A5E003FC554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34A5B09D286A5A5E003FC554 /* PBXTargetDependency */,
+			);
+			name = TextDealAppTests;
+			productName = TextDealAppTests;
+			productReference = 34A5B09B286A5A5E003FC554 /* TextDealAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34A5B0A4286A5A5E003FC554 /* TextDealAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A5B0B5286A5A5E003FC554 /* Build configuration list for PBXNativeTarget "TextDealAppUITests" */;
+			buildPhases = (
+				34A5B0A1286A5A5E003FC554 /* Sources */,
+				34A5B0A2286A5A5E003FC554 /* Frameworks */,
+				34A5B0A3286A5A5E003FC554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34A5B0A7286A5A5E003FC554 /* PBXTargetDependency */,
+			);
+			name = TextDealAppUITests;
+			productName = TextDealAppUITests;
+			productReference = 34A5B0A5286A5A5E003FC554 /* TextDealAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34A5B083286A5A5D003FC554 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					34A5B08A286A5A5D003FC554 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					34A5B09A286A5A5E003FC554 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 34A5B08A286A5A5D003FC554;
+					};
+					34A5B0A4286A5A5E003FC554 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 34A5B08A286A5A5D003FC554;
+					};
+				};
+			};
+			buildConfigurationList = 34A5B086286A5A5D003FC554 /* Build configuration list for PBXProject "TextDealApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34A5B082286A5A5D003FC554;
+			productRefGroup = 34A5B08C286A5A5D003FC554 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34A5B08A286A5A5D003FC554 /* TextDealApp */,
+				34A5B09A286A5A5E003FC554 /* TextDealAppTests */,
+				34A5B0A4286A5A5E003FC554 /* TextDealAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34A5B089286A5A5D003FC554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A5B096286A5A5E003FC554 /* Preview Assets.xcassets in Resources */,
+				34A5B093286A5A5E003FC554 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A5B099286A5A5E003FC554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A5B0A3286A5A5E003FC554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34A5B087286A5A5D003FC554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A5B091286A5A5D003FC554 /* ContentView.swift in Sources */,
+				34A5B08F286A5A5D003FC554 /* TextDealAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A5B097286A5A5E003FC554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A5B0A0286A5A5E003FC554 /* TextDealAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A5B0A1286A5A5E003FC554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A5B0AA286A5A5E003FC554 /* TextDealAppUITests.swift in Sources */,
+				34A5B0AC286A5A5E003FC554 /* TextDealAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34A5B09D286A5A5E003FC554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34A5B08A286A5A5D003FC554 /* TextDealApp */;
+			targetProxy = 34A5B09C286A5A5E003FC554 /* PBXContainerItemProxy */;
+		};
+		34A5B0A7286A5A5E003FC554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34A5B08A286A5A5D003FC554 /* TextDealApp */;
+			targetProxy = 34A5B0A6286A5A5E003FC554 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34A5B0AD286A5A5E003FC554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34A5B0AE286A5A5E003FC554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34A5B0B0286A5A5E003FC554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TextDealApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trungluu9798.TextDealApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34A5B0B1286A5A5E003FC554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TextDealApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trungluu9798.TextDealApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34A5B0B3286A5A5E003FC554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trungluu9798.TextDealAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextDealApp.app/TextDealApp";
+			};
+			name = Debug;
+		};
+		34A5B0B4286A5A5E003FC554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trungluu9798.TextDealAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextDealApp.app/TextDealApp";
+			};
+			name = Release;
+		};
+		34A5B0B6286A5A5E003FC554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trungluu9798.TextDealAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TextDealApp;
+			};
+			name = Debug;
+		};
+		34A5B0B7286A5A5E003FC554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trungluu9798.TextDealAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TextDealApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34A5B086286A5A5D003FC554 /* Build configuration list for PBXProject "TextDealApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A5B0AD286A5A5E003FC554 /* Debug */,
+				34A5B0AE286A5A5E003FC554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A5B0AF286A5A5E003FC554 /* Build configuration list for PBXNativeTarget "TextDealApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A5B0B0286A5A5E003FC554 /* Debug */,
+				34A5B0B1286A5A5E003FC554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A5B0B2286A5A5E003FC554 /* Build configuration list for PBXNativeTarget "TextDealAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A5B0B3286A5A5E003FC554 /* Debug */,
+				34A5B0B4286A5A5E003FC554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A5B0B5286A5A5E003FC554 /* Build configuration list for PBXNativeTarget "TextDealAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A5B0B6286A5A5E003FC554 /* Debug */,
+				34A5B0B7286A5A5E003FC554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34A5B083286A5A5D003FC554 /* Project object */;
+}
